@@ -27,15 +27,8 @@ Our codes are all edited by Python 3.6.7 with TensorFlow 1.4.0 and Keras 2.1.3.
 
 # Usage
 It is simple to use DeePhafier for users' database. <br>
-You can clone DeePhafier package by <br>
-```
-git clone https://github.com/ceazyinter/DeePhafier.git
-```
-and change your directory to DeePhafier. 
-Then execute the command:
-```
-./DeePhafier <input_file_folder>/input_file.fna <output_file_folder>/output_file.csv
-```
+
+To make a prediction by "test.py", users' own query contigs should be edited into a ".fasta" file. Then run "test.py" or copy the code into jupyter notebook and run seperately.
 
 
 # Citation
