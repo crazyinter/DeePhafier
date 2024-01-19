@@ -7,10 +7,10 @@ argc = len(sys.argv)
 lengths = sys.argc
 name = lengths[1]
 output_name = lengths[2]
-file = sio.loadmat('temp_file/'+name)
+file = sio.loadmat('test.csv')
 
 test_matrix = file['test_matrix'][:].ravel()
-reads_number = file['current_reads_number'][:].ravel()
+reads_number = 10000 # set as your own query sequences file 
 size2 = file['size2'][:].ravel()
 
 test_matrix = np.reshape(test_matrix,(int(reads_number),int(size2)))
