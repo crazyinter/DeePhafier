@@ -1,7 +1,7 @@
 # DeePhafier: A Phage Lifestyle Classifier using a Multilayer self-attention neural network combining protein information
 Version 1.1 <br>
 Authors: Yan Miao, Zhenyuan Sun, Chen Lin, et.al. <br>
-Maintainer: Yan Miao miaoyan@nefu.edu.cn 
+Maintainer: Yan Miao miaoyan17@mails.jlu.edu.cn 
 
 # Description
 Bacteriophages is known as viruses that infect bacterial cells. They are the most entities on earth and play important roles in microbiome. According to the phage lifestyle, phages can be divided into the virulent phages and the temperate phages. Classifying virulent and temperate phages is crucial for further understanding of phage-host interactions. Although there are several methods designed for phage lifestyle classification, they either consider sequence features or gene features merely, leading to low accuracy. A new computational method, DeePhafier, is proposed to improve classification performance on phage lifestyle. Built by several multilayer self-attention neural network, a global self-attention neural network and being combined by protein features of PSSM matrix, DeePhafier improves the classification accuracy and outperforms two benchmark methods. 
