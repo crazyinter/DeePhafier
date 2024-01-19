@@ -1,6 +1,6 @@
 # DeePhafier: A Phage Lifestyle Classifier using a Multilayer self-attention neural network combining protein information
 Version 1.1 <br>
-Authors: Yan Miao, Zhenyuan Sun, Chen Lin, Haoran Gu, Chenjing Ma, Chunxue Yang, and Guohua Wang <br>
+Authors: Yan Miao, Zhenyuan Sun, Chen Lin, et.al. <br>
 Maintainer: Yan Miao miaoyan@nefu.edu.cn 
 
 # Description
