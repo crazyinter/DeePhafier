@@ -27,7 +27,8 @@ Our codes are all edited by Python 3.6.7 with TensorFlow 1.4.0 and Keras 2.1.3.
 
 # Usage
 It is simple to use DeePhafier for users' database. <br>
-Before testing, users' own query contigs should be preprocessed to an available format using `preprocessing.py` and be condon embedded by `embedding.py` as Seq2Vec(https://github.com/crazyinter/Seq2Vec). The embedding matrix is the same as Virtifier from https://github.com/crazyinter/Seq2Vec/blob/master/supplementary_files/embedding_matrix.csv.
+    Before testing, users' own query contigs should be preprocessed to an available format using `preprocessing.py` and be condon embedded by `embedding.py` as Seq2Vec(https://github.com/crazyinter/Seq2Vec). The embedding matrix is the same as Virtifier from https://github.com/crazyinter/Seq2Vec/blob/master/supplementary_files/embedding_matrix.csv. The query sequences < 9000bp in the test file should be zero-padded to 9000bp. The query sequences > 9000bp in the test file should be cut-off to 9000bp.
+
 To make a prediction by "test.py", users' own query contigs should be edited into a ".csv" file. Then run "test.py" or copy the code into jupyter notebook and run seperately.
 
 
